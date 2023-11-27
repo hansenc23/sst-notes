@@ -1,4 +1,8 @@
 const config = {
+  // Frontend config
+  STRIPE_KEY:
+    "pk_test_51OFbUNDkJOC8goCh8WROmehJCEmOXni8bd67moErBt78nrLsD0wzn6tlIGtfdKzqmp3iJM1Wn9jGsyUQ9P5SOQir00USgz4MFD",
+  MAX_ATTACHMENT_SIZE: 5000000,
   // Backend config
   s3: {
     REGION: import.meta.env.VITE_REGION,
